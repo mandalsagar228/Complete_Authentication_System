@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:8000";
+const URL = "https://complete-authentication-system.onrender.com";
 
 // Sending signup data to the server.
 export const sendingSignupData = async (signupData) => {
