@@ -26,6 +26,7 @@ const SignupPage = () => {
         action.resetForm();
       },
     });
+  console.log("touched value", touched);
   const navigate = useNavigate();
 
   // sending signupdetails to server
@@ -188,7 +189,6 @@ const SignupPage = () => {
         </div>
 
         <div className="mb-4 mx-2 flex items-center justify-center">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           Already have account ? &nbsp;
           <span className=" text-blue-700">
             <NavLink to={"/LoginPage"}>Login</NavLink>

@@ -70,7 +70,7 @@ export const verifyOTP = async (req, res) => {
 };
 
 // Getting login details:
-export const loginDetails = async (req, res, next) => {
+export const loginDetails = async (req, res) => {
   try {
     const { email, password } = req.body;
 
