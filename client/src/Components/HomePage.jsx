@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import "../assets/authflow.png";
 
 const HomePage = () => {
   const navigateComponent = () => {
